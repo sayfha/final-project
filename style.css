@@ -340,7 +340,7 @@ flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
 }
-.country button{
+.country .page2-button{
     background-color: #3d83df;
     height: 30px;
     width: 103.662px;
@@ -357,6 +357,18 @@ flex-wrap: wrap;
     margin-top: 10px;
     margin-left: 20px;
 }
+.heart{
+    border: none;
+}
+.fas {
+    background: transparent;
+    cursor: pointer;
+    font-size: 25px;
+    color: #424242;
+    margin-left: 10px;
+}
+
+/*footer*/
 .page-foot1{
     display: flex;
     height: 200px;
@@ -399,6 +411,7 @@ flex-wrap: wrap;
 .icon-play img:hover{
     transform: translateY(-7px);
 }
+/*log page*/
 .log-body{
     background-image: url(/img/b1ffb353379953.5931fb7556924.jpg);
     background-size: cover;
